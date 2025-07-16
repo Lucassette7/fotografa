@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { Navigation, Phone, Mail } from 'lucide-react';
 import axios from 'axios';
