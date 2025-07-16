@@ -20,7 +20,7 @@ const SideBar = ({ scrollTo, valorSelecionado }) => {
             title={item.nome}
             onClick={() => scrollTo[item.valor]()}
             className={`w-10 h-10 flex items-center justify-center rounded-full transition-all duration-300 shadow-md relative group ${
-              isSelected ? 'bg-[#e6d3b3] text-gray-300' : 'bg-white shadow-[#e6d3b3] hover:bg-[#e6d3b3] text-gray-300'
+              isSelected ? 'bg-[#e6d3b3] text-gray-500 hover:text-gray-500' : 'bg-white shadow-[#e6d3b3] hover:bg-[#e6d3b3] text-gray-500'
             }`}
           >
             {item.icone}
