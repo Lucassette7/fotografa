@@ -1,3 +1,4 @@
+"use client"
 import { Mail, Phone, Navigation} from 'lucide-react';
 import React from 'react';
 
