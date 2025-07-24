@@ -22,18 +22,17 @@ const SobreMim = () => {
           {/* Texto */}
           <div>
             <p className="text-lg leading-relaxed mb-4">
-              Olá! Me chamo <strong>Vanessa Ribeiro Sette</strong>, tenho 26 anos, sou fotógrafa apaixonada por capturar emoções e contar histórias por meio da minha lente.
-              Vivo em <strong>Guarulhos/SP</strong> e acredito que cada detalhe, sorriso e olhar pode se transformar em uma memória eterna.
+              Me chamo <strong>Vanessa Ribeiro Sette</strong>, tenho 26 anos, sou fotógrafa desde 2020, moro
+              em <strong>Guarulhos - São Paulo</strong>, mas fotografo onde você me chamar!
             </p>
 
             <p className="text-lg leading-relaxed mb-4">
-              A fotografia entrou na minha vida como uma paixão e hoje é meu propósito. Amo transformar momentos simples em registros únicos — seja um casamento cheio de emoção ou um retrato que revela a essência de quem está à frente da câmera.
+              A paixão pela fotografia começou no colégio, no famoso “terceirão para a vida” e, desde então, faço parte de histórias incríveis, criando memórias e fotografando momentos. Acredito que cada detalhe, sorriso e olhar pode se transformar em uma memória eterna.
             </p>
 
             <p className="text-lg leading-relaxed mb-4">
-              Com sensibilidade e profissionalismo, busco sempre criar imagens que expressem sentimentos reais, com luz natural, cores suaves e muita dedicação em cada clique.
+              A fotografia entrou na minha vida como uma paixão e, hoje, é o meu propósito. Amo transformar momentos simples em registros únicos. Com sensibilidade e profissionalismo, busco sempre criar fotografias que expressem sentimentos reais, com luz natural, cores suaves e muita dedicação em cada clique.
             </p>
-
             <div className="mt-6 text-md">
               <p>
                  <strong> <Navigation/> Localização:</strong> Guarulhos – SP

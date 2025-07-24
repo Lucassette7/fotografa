@@ -1,13 +1,13 @@
 'use client';
 import React from 'react';
-import { Home, User, Image, Server } from 'lucide-react';
+import { Home, User, Image, Server, Phone } from 'lucide-react';
 
 const SideBar = ({ scrollTo, valorSelecionado }) => {
   const botoes = [
     { id: 0, nome: 'Início', icone: <Home size={20} />, valor: 'inicio' },
     { id: 1, nome: 'Sobre Mim', icone: <User size={20} />, valor: 'sobreMim' },
     { id: 2, nome: 'Portfólio', icone: <Image size={20} />, valor: 'portfolio' },
-    { id: 3, nome: 'Serviços', icone: <Server size={20} />, valor: 'contato' },
+    { id: 3, nome: 'Contato', icone: <Phone size={20} />, valor: 'contato' },
   ];
 
   return (
