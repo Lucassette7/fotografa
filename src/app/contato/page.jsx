@@ -8,7 +8,6 @@ const Contato = () => {
   const enviarMsgWhats = () => {
     const numero = '5511966339734';
     const mensagem = encodeURIComponent('Olá, tudo bem? Gostaria de um orçamento.');
-    alert(mensagem)
     const url = `https://wa.me/${numero}?text=${mensagem}`;
     window.open(url, '_blank');
   };
